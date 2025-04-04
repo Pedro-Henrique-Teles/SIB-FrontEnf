@@ -1,7 +1,11 @@
+import Cabecalho from "../cabecalho/Cabecalho";
+import PaginaPrincipal from "../paginaPrincipal/PaginaPrincipal";
+
 function Home() {
     return (
       <>
-       <h1 className="text-5xl text-center">Home</h1>
+        <Cabecalho />
+        <PaginaPrincipal />
       </>
     )
   }
