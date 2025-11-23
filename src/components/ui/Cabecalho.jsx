@@ -24,8 +24,8 @@ export const Cabecalho = ({ irParaOTopo, scrollToSection, refs }) => {
     { name: "Início", action: () => irParaOTopo() },
     { name: "Programação", action: () => scrollToSection(refs.programacaoRef) },
     { name: "Sobre", action: () => scrollToSection(refs.sobreRef) },
-    { name: "Visão", action: () => scrollToSection(refs.visaoRef) },
-    { name: "Valores", action: () => scrollToSection(refs.valoresRef) },
+    //{ name: "Visão", action: () => scrollToSection(refs.visaoRef) },//
+    //{ name: "Valores", action: () => scrollToSection(refs.valoresRef) },
     { name: "Galeria", action: () => scrollToSection(refs.galeriaRef) },
     { name: "História", action: () => scrollToSection(refs.historiaRef) },
     { name: "Contato", action: () => scrollToSection(refs.contatoRef) },
@@ -83,7 +83,7 @@ export const Cabecalho = ({ irParaOTopo, scrollToSection, refs }) => {
             Eu sou novo
           </Button>
         </NavbarItem>
-
+    {/*
         <NavbarItem>
           <Button
             as={Link}
@@ -96,6 +96,7 @@ export const Cabecalho = ({ irParaOTopo, scrollToSection, refs }) => {
             Acessar
           </Button>
         </NavbarItem>
+        */}
 
         <NavbarItem>
           <Button
